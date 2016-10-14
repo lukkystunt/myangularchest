@@ -1,0 +1,16 @@
+<html ng-app="supermartngApp">
+<head>
+<script src="js/angular-min.js"></script>
+<script src="js/controllers/app.js"></script>
+</head>
+<body>
+<div ng-controller="AirportCrl">
+	<h1>Airports In Africa Quiz</h1>
+	<ul ng-repeat="airport in airports">
+		<li>{{airport.name}} <a href="#" ng-click="validateCountry(airport)"> located where? </a><span></span></li>
+	</ul>
+	<a href="#" ng-click="reset()">Play Again</a>
+</div>
+
+ </body>
+</html>
