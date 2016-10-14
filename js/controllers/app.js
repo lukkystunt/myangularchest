@@ -3,10 +3,10 @@ angular.module('supermartngApp')
   .controller('AirportCrl', function ($scope){
   		
   		function init(){
-  			$scope.airports = [{"name":"Muritala Muhammed","location":"Nigeria","correct":false}, 
-  							{"name":"Accra","location":"Ghana","correct":false},
-  							{"name":"Cairo","location":"Eygpt","correct":false},
-  							 {"name":"Kampalar","location":"Uganda","correct":false}
+  			$scope.airports = [{"name":"Murtala Muhammed International Airport","location":"Nigeria","correct":false}, 
+  							{"name":"Takoradi Airport","location":"Ghana","correct":false},
+  							{"name":"Luxor International Airport","location":"Eygpt","correct":false},
+  							 {"name":"Jinja Airport","location":"Uganda","correct":false}
   						]; 
   		}
 
