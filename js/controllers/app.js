@@ -21,7 +21,7 @@ angular.module('supermartngApp')
 
   		$scope.$watch("airports.length", function(newValue, OldValue){
   			if(newValue==0){
-  				alert("You got all the answers");
+  				alert("You got all the questions correct");
   			}
   		})
 
